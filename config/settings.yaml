@@ -1,0 +1,39 @@
+app:
+  name:AegisSIEM
+  debug: false
+
+network:
+  interface: null
+  capture_timeout: 10
+
+detection:
+  rate_limit_threshold: 100
+  rate_limit_window: 10
+  port_scan_threshold: 20
+  anomaly_threshold: 3
+
+response:
+  block_duration: 300
+
+logging:
+  level: INFO
+  directory: logs
+
+email:
+  enabled: false
+  smtp_server: smtp.gmail.com
+  smtp_port: 587
+  username: ""
+  password: ""
+  from: ""
+  to: ""
+
+webhook:
+  enabled: false
+  url: ""
+
+threat_intel:
+  update_interval: 3600
+
+api:
+  api_key: secure_api_key
