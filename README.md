@@ -50,9 +50,10 @@ Packet Source / Logs
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
-enforcer-ips/
+```text
+Aegis-SIEM/
 │
 ├── api/
 │   ├── app.py
@@ -133,21 +134,20 @@ enforcer-ips/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
----
-
+```
 ⚙️ Installation & Setup
 
 1️⃣ Clone Repository
 
 git clone <your-repo-url>
-cd enforcer-ips
+cd Aegis-SIEM
 
 ---
 
 2️⃣ Create Virtual Environment
 
 python3 -m venv venv
+
 source venv/bin/activate
 
 ---
